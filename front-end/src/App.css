@@ -1,0 +1,138 @@
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  .app-container {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .app-header {
+    background-color: #282c34;
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo h1 {
+    margin: 0;
+  }
+  
+  .search-bar {
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    width: 300px;
+  }
+  
+  .content {
+    display: flex;
+    flex-direction: row;
+  }
+  
+  .filter-sidebar {
+    width: 250px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+  }
+  
+  .filter-section {
+    margin-bottom: 20px;
+  }
+  
+  .filter-section label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .filter-section input,
+  .filter-section select {
+    width: 100%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+  }
+  
+  .filter-button {
+    background-color: #29ac83;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 100%;
+    cursor: pointer;
+  }
+  
+  .filter-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .terreno-grid {
+    flex-grow: 1;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }
+  
+  .terreno-card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 300px;
+    margin-bottom: 20px;
+  }
+  
+  .terreno-card:hover {
+    transform: translateY(-10px);
+  }
+  
+  .terreno-image {
+    width: 100%;
+    height: auto;
+  }
+  
+  .terreno-details {
+    padding: 16px;
+  }
+  
+  .terreno-details h3 {
+    margin: 0 0 10px;
+    font-size: 1.5em;
+  }
+  
+  .terreno-details p {
+    margin: 5px 0;
+    color: #666;
+  }
+  
+  .terreno-price {
+    font-weight: bold;
+    color: #28a745;
+  }
+
+  .terreno-card button {
+    background-color: #29ac83;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .app-header button {
+    background-color: #29ac83;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
