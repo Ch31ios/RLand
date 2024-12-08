@@ -1,0 +1,29 @@
+# Archivos de configuración de conexión
+.env
+
+# Archivos de logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Directorios de datos
+node_modules
+dist
+dist-ssr
+*.local
+
+# Directorios y archivos de configuración del editor
+.vscode
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
